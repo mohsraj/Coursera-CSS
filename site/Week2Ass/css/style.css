@@ -1,8 +1,7 @@
-body
-@media (min-width: 1200px) {
+
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -43,10 +42,9 @@ body
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -87,5 +85,44 @@ body
 }
 
 h1 {
-  margin-bottom: 15px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+div.out {
+	
+	padding: 20px;
+}
+
+div.in {
+	background-color: #d3d3d3;
+	border: 2px solid black;
+}
+
+h2 {
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5px;
+	position: relative;
+	display: inline;
+}
+
+.head1 {
+	background-color: #ff906c;
+}
+.head2 {
+	background-color: #d5a1d8;
+}
+.head3 {
+	background-color: #ffc0cb;
+}
+
+.TextDiv {
+	text-align: right;
+	margin-top: 5px;
+}
+
+section {
+	padding: 10px;
 }
